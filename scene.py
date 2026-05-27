@@ -1,11 +1,11 @@
-EQ_TEX       = 'x^2 + 3x - 54 = 0'
-FACTORED_TEX = '\\left(x - 6\\right) \\left(x + 9\\right) = 0'
-ANSWER_TEX   = 'x = -9 \\quad \\text{or} \\quad x = 6'
+EQ_TEX       = 'x^2 - 3x = 0'
+FACTORED_TEX = 'x \\left(x - 3\\right) = 0'
+ANSWER_TEX   = 'x = 0 \\quad \\text{or} \\quad x = 3'
 VO_LINE1     = 'Most students get this wrong.'
-VO_LINE2     = 'Solve: x squared plus 3 x minus 54 equals zero.'
+VO_LINE2     = 'Solve: x squared minus 3 x plus 0 equals zero.'
 VO_LINE3     = 'Step one. Factorise the expression.'
 VO_LINE4     = 'Step two. Solve each factor.'
-VO_LINE5     = 'The solutions are x equals -9 or 6.'
+VO_LINE5     = 'The solutions are x equals 0 or 3.'
 VO_LINE6     = 'Follow for more daily exam tips.'
 
 from manim import *
